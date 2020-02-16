@@ -1,0 +1,22 @@
+<ion-view view-title="Gedächtnisprotokoll">
+  <ion-content>
+    <h1>Gedächtnisprotokoll</h1>
+
+
+
+
+<ion-list ng-controller="ProtokollController">
+<ion-reorder> 
+  <ion-item ng-repeat="listitems in listitems">
+    
+    <ion-label>
+    {{listitems.title}}	
+    </ion-label>
+  </ion-item>
+</ion-reorder> 
+
+</ion-list> 
+
+
+  </ion-content>
+</ion-view>
